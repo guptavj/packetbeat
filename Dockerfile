@@ -1,6 +1,6 @@
 FROM debian:jessie-slim
 
-MAINTAINER AnalyticsIO/guptavj
+MAINTAINER gsvijay
 
 RUN apt-get update \
     && apt-get install -y libpcap0.8 curl \
